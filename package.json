@@ -1,0 +1,30 @@
+{
+  "name": "solid-demo",
+  "scripts": {
+    "dev": "solid-start dev --host",
+    "build": "solid-start build",
+    "start": "solid-start start --host"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@vitejs/plugin-legacy": "^3.0.1",
+    "esbuild": "^0.14.54",
+    "postcss": "^8.4.18",
+    "solid-start-node": "^0.2.0",
+    "typescript": "^4.8.4",
+    "vite": "^3.1.8"
+  },
+  "dependencies": {
+    "@solidjs/meta": "^0.28.0",
+    "@solidjs/router": "^0.6.0",
+    "core-js": "^3.27.1",
+    "regenerator-runtime": "^0.13.11",
+    "solid-js": "^1.6.2",
+    "solid-start": "^0.2.0",
+    "undici": "^5.11.0"
+  },
+  "engines": {
+    "node": ">=16.8"
+  }
+}
