@@ -1,3 +1,9 @@
+/*
+ * @Author: zhangyang
+ * @Date: 2023-01-24 15:16:35
+ * @LastEditTime: 2023-01-24 15:25:10
+ * @Description: 
+ */
 // @refresh reload
 import { Suspense } from "solid-js";
 import {
@@ -27,6 +33,7 @@ export default function Root() {
           <ErrorBoundary>
             <A href="/">Index</A>
             <A href="/about">About</A>
+            <A href="/demo">MD</A>
             <Routes>
               <FileRoutes />
             </Routes>
