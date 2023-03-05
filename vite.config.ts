@@ -1,7 +1,7 @@
 /*
  * @Author: zhangyang
  * @Date: 2023-01-16 15:20:51
- * @LastEditTime: 2023-02-01 15:36:09
+ * @LastEditTime: 2023-03-05 18:01:17
  * @Description:
  */
 import solid from 'solid-start/vite';
@@ -27,7 +27,7 @@ export default defineConfig({
     },
     solid({
       extensions: ['.ts', '.tsx', '.md', '.mdx'],
-      adapter: provider === 'netlify' ? netlify({ edge: true }) : 'solid-start-node',
+      adapter: provider === 'netlify' ? netlify() : 'solid-start-node',
     }),
     unocss(),
     legacy({}),
