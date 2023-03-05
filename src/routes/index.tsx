@@ -1,13 +1,22 @@
 /*
  * @Author: zhangyang
  * @Date: 2023-01-24 15:16:35
- * @LastEditTime: 2023-01-24 16:20:00
+ * @LastEditTime: 2023-03-05 17:49:39
  * @Description: 
  */
+import { createSignal } from "solid-js";
 import { Title } from "solid-start";
 import Counter from "~/components/Counter";
 
 export default function Home() {
+  const [getName, setName] = createSignal('');
+
+  const goApi = (e: KeyboardEvent) => {
+    if (e.key.toLowerCase() === 'enter') {
+      location.href = `/api/user/${getName()}`;
+    }
+  };
+
   return (
     <main>
       <Title>Hello World</Title>
@@ -20,6 +29,9 @@ export default function Home() {
         </a>{" "}
         to learn how to build SolidStart apps.
       </p>
+
+      <h2 class="text-2xl p-2">api route demo</h2>
+      <input class="border border-blue-200 focus:outline-blue w-520px py-1 px-1.6" placeholder="please input your name and then press enter" value={getName()} onInput={(e) => setName(e.currentTarget.value)} onKeyUp={goApi} />
     </main>
   );
 }
