@@ -5,10 +5,15 @@ const handler = async (args: APIEvent) => {
     params,
     request: { method, headers },
   } = args;
+
   return json({
     msg: `Hello Mr/Miss ${params.name}`,
     method,
     headers: Object.fromEntries(headers.entries()),
+  }, {
+    headers: {
+      'Access-Control-Allow-Origin': '*'
+    }
   });
 };
 
