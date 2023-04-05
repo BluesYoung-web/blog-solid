@@ -1098,6 +1098,11 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
+"@bluesyoung/utils@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@bluesyoung/utils/-/utils-0.1.0.tgz#a80263e4bcabfacba0653389ad88a585f2f74a49"
+  integrity sha512-4pBWpHCvHDDpp2sIXbfGUUbJSDmZLA0CWHwAjrlRkaMmA3BMsKm57qeQxtlt7UIZCUHcjbbsr6QtDft4/69frA==
+
 "@esbuild/android-arm64@0.17.15":
   version "0.17.15"
   resolved "https://registry.yarnpkg.com/@esbuild/android-arm64/-/android-arm64-0.17.15.tgz#893ad71f3920ccb919e1757c387756a9bca2ef42"
