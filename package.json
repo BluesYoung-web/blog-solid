@@ -7,29 +7,29 @@
   },
   "type": "module",
   "devDependencies": {
-    "@iconify/json": "^2.2.30",
+    "@iconify/json": "^2.2.46",
     "@mdx-js/rollup": "^2.3.0",
     "@types/node": "16",
-    "@unocss/reset": "^0.50.3",
-    "@vitejs/plugin-legacy": "^4.0.1",
-    "esbuild": "^0.17.11",
+    "@unocss/reset": "^0.50.6",
+    "@vitejs/plugin-legacy": "^4.0.2",
+    "esbuild": "^0.17.15",
     "postcss": "^8.4.18",
-    "solid-start-netlify": "^0.2.23",
-    "solid-start-node": "^0.2.23",
+    "solid-start-netlify": "^0.2.25",
+    "solid-start-node": "^0.2.25",
     "std-env": "^3.3.2",
-    "typescript": "^4.9.5",
-    "unocss": "^0.50.3",
-    "vite": "^4.1.4"
+    "typescript": "^5.0.3",
+    "unocss": "^0.50.6",
+    "vite": "^4.2.1"
   },
   "dependencies": {
-    "@solidjs/meta": "^0.28.0",
-    "@solidjs/router": "^0.7.0",
-    "core-js": "^3.29.0",
+    "@solidjs/meta": "^0.28.4",
+    "@solidjs/router": "^0.8.2",
+    "core-js": "^3.30.0",
     "regenerator-runtime": "^0.13.11",
-    "solid-js": "^1.6.11",
+    "solid-js": "^1.7.2",
     "solid-mdx": "^0.0.6",
-    "solid-start": "^0.2.23",
-    "undici": "^5.20.0"
+    "solid-start": "^0.2.25",
+    "undici": "^5.21.0"
   },
   "engines": {
     "node": ">=16.8"
